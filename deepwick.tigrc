@@ -1,0 +1,94 @@
+# Deepwick for tig. tig has no 24-bit colors, so this theme uses ANSI slots;
+# use it with a Deepwick terminal theme. Slots: black=Overlay blue=Blue
+# cyan=Teal white=Foreground color8=Muted color12=Light Blue.
+
+color default            default  default
+color cursor             default  black    bold
+color cursor-blur        default  black
+color title-focus        black    blue     bold
+color title-blur         white    black
+color status             default  default
+color delimiter          color8   default
+color date               color8   default
+color mode               cyan     default  bold
+color id                 yellow   default
+color overflow           red      default
+color header             blue     default  bold
+color section            blue     default  bold
+color directory          blue     default  bold
+color file               default  default
+color file-size          green    default
+color line-number        color8   default
+color search-result      black    yellow
+color graph-commit       blue     default
+color palette-0          blue     default
+color palette-1          magenta  default
+color palette-2          cyan     default
+color palette-3          yellow   default
+color palette-4          green    default
+color palette-5          red      default
+color palette-6          color12  default
+color palette-7          blue     default  bold
+color palette-8          magenta  default  bold
+color palette-9          cyan     default  bold
+color palette-10         yellow   default  bold
+color palette-11         green    default  bold
+color palette-12         red      default  bold
+color palette-13         color12  default  bold
+
+color main-commit        default  default
+color main-annotated     default  default  bold
+color main-head          cyan     default  bold
+color main-remote        magenta  default
+color main-tracked       magenta  default  bold
+color main-tag           magenta  default  bold
+color main-local-tag     magenta  default
+color main-ref           cyan     default
+color main-replace       cyan     default
+color main-stash         color8   default
+color main-note          yellow   default
+color main-prefetch      color8   default
+color main-other         default  default
+color main.id            yellow   default
+color main.date          color8   default
+color main.author        color12  default
+
+color stat-none          default  default
+color stat-staged        green    default
+color stat-unstaged      blue     default
+color stat-untracked     cyan     default
+color help-group         blue     default  bold
+color help-action        yellow   default
+color help-toggle        cyan     default
+
+color diff-header        blue     default  bold
+color diff-chunk         magenta  default
+color diff-stat          blue     default
+color diff-add           green    default
+color diff-add2          green    default
+color diff-del           red      default
+color diff-del2          red      default
+color diff-add-highlight green    default  reverse
+color diff-del-highlight red      default  reverse
+color diff-add-file      green    default  bold
+color diff-del-file      red      default  bold
+color diff-start         blue     default
+color diff-index         color8   default
+color diff-oldmode       color8   default
+color diff-newmode       color8   default
+color diff-newfmode      color8   default
+color diff-delfmode      color8   default
+color diff-rename-from   blue     default
+color diff-rename-to     blue     default
+color diff-similarity    color8   default
+color diff-no-newline    red      default
+
+color pp-merge           blue     default
+color pp-refs            cyan     default
+color pp-reflog          magenta  default
+color pp-reflogmsg       default  default
+color commit             yellow   default
+color parent             blue     default
+color tree               blue     default
+color author             color12  default
+color committer          color12  default
